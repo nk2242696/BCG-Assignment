@@ -1,0 +1,5 @@
+{
+  "app_name": "BCGAnalytics",
+  "source_data_path": "resources",
+  "output_data_path": "output"
+}
