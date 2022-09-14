@@ -207,7 +207,7 @@ def analytics_8(spark, config):
 def main():
     """ Main function excecuted by spark-submit command"""
 
-    with open("config.json", "r") as config_file:
+    with open("./data_reader/config.json", "r") as config_file:
         config = json.load(config_file)
 
     spark = SparkSession.builder.appName(config.get("app_name")).getOrCreate()
